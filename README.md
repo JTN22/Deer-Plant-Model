@@ -30,4 +30,16 @@ The model investigates whether the system stabilizes, oscillates, or collapses d
 ## 🧠 Key Features
 - Logistic growth modeling
 - Piecewise consumption function
-- Visualization-ready output (if plotting is added)
+- Visualization-ready output
+
+## 📊 Sample Output
+
+The simulation visualizes the interaction between deer population and plant density over 30 time steps:
+
+![Population Simulation](Figure.png)
+
+- **Green Line**: Plant density (initially 2,000 units)  
+- **Brown Line**: Deer population (initially 100 deer)  
+- At the beginning, plant density increases due to low grazing. As the deer population grows, plant density begins to decrease.
+- Over time, the system stabilizes, showing a balanced dynamic between regrowth and consumption — a long-term equilibrium.
+
